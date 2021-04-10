@@ -17,10 +17,8 @@ public:
             if (character == ".") {
                 character = "[.]";
             }
-
             word += character;
         }
-
         return word;
     }
 };
